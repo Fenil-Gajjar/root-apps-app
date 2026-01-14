@@ -4,6 +4,7 @@ kind: Kustomization
 resources:
 - pod1App.yaml
 - deployment1App.yaml
+- app-2/pod2App.yaml
 
 commonLabels:
   clusterId: cluster-01
