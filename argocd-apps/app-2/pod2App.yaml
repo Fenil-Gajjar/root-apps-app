@@ -10,7 +10,7 @@ spec:
   source:
     repoURL: https://github.com/Fenil-Gajjar/root-apps-app.git
     targetRevision: main
-    path: actions
+    path: actions/pod2
   destination:
     server: https://kubernetes.default.svc
     namespace: pod2-ns
